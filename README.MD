@@ -9,7 +9,7 @@ The idea is that I used Langchain framework and Pinecone vectorstore to create a
 
 ## Features
 
-- Talk to any book or library of books
+- Talk to a book or a library
 - Chat with authentic and selected books 
 - Quick access to the desired information
 - Summarized/ Concise information
