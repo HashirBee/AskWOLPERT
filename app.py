@@ -20,7 +20,7 @@ app = Flask(__name__)
 PINECONE_API_KEY = os.environ.get('PINECONE_API_KEY')
 
 # downloading an open-source hugging face embedding model
-embeddings = download_hugging_face_embeddings()
+embeddings = download_hugging_face_embeddings() 
 
 # pinecone index (already created)
 PINECONE_INDEX_NAME="askwolpert"
