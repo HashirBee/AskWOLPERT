@@ -10,11 +10,11 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_community.llms import Ollama
 import os
 
-# creating the Flask app for Chatbot
-app = Flask(__name__)
-
 # loading the environment
 load_dotenv()
+
+# creating the Flask app for Chatbot
+app = Flask(__name__)
 
 # setting the pinecone API Key
 PINECONE_API_KEY = os.environ.get('PINECONE_API_KEY')
